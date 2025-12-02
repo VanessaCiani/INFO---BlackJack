@@ -4,7 +4,7 @@ class Mazzo:
     def __init__(self, lista_carte):
         self.__carte = lista_carte  #Lista privata che contiene tutte le carte del mazzo
 
-    #Imposto la property
+    #Imposta la property
     @property
     def carte(self):
         #Restituisce la lista delle carte
@@ -15,6 +15,7 @@ class Mazzo:
         random.shuffle(self.__carte)
 
     def pesca(self):
-        #RImuove e restituisce l'ultima carta del mazzo (.pop)
+        #Rimuove e restituisce l'ultima carta del mazzo (.pop)
         carta_rimossa = self.__carte.pop()
         return carta_rimossa
+
