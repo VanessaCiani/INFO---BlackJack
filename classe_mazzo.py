@@ -7,14 +7,14 @@ class Mazzo:
     #Imposto la property
     @property
     def carte(self):
-        #
+        #Restituisce la lista delle carte
         return self.__carte
 
     def mescola(self):
-        # mescola le carte in modo casuale
+        #Mescola le carte in modo casuale (.shuffle)
         random.shuffle(self.__carte)
 
     def pesca(self):
-        # rimuove e restituisce l'ultima carta del mazzo
+        #RImuove e restituisce l'ultima carta del mazzo (.pop)
         carta_rimossa = self.__carte.pop()
         return carta_rimossa
