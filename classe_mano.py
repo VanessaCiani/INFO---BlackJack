@@ -7,7 +7,7 @@ class Mano:
         #Aggiunge una carta alla mano
         self.__carte.append(carta)
 
-    #Imposto la property
+    #Imposta la property
     @property
     def get_carte(self):
         #Restituisce la lista delle carte creata in precedenza
@@ -22,3 +22,4 @@ class Mano:
         for carta in self.__carte:
             stringa += str(carta) + "\n"   #Converte ogni carta in stringa (INTERO --> STRINGA)
         return stringa
+
