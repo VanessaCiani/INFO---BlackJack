@@ -5,7 +5,7 @@ class Carta:
         self.__seme = seme       
         self.__rango = rango     
 
-    #Imposto le property per il seme e per il rango
+    #Imposta le property per il seme e per il rango
     @property
     def seme(self):
         return self.__seme
@@ -14,7 +14,7 @@ class Carta:
     def rango(self):
         return self.__rango
 
-    #Imposto la property per il valore
+    #Imposta la property per il valore
     @property
     def valore(self) -> int:
         #Controllo che valore numerico associare ad ogni carta
@@ -31,3 +31,4 @@ class Carta:
 
 
         return f"Seme: {self.__seme}, Valore: {self.__rango}"
+
