@@ -28,7 +28,3 @@ class Carta:
     def __str__(self):
         #Rappresentazione testuale della carta
         return f"Seme: {self.__seme}, Valore: {self.__rango}"
-
-
-        return f"Seme: {self.__seme}, Valore: {self.__rango}"
-
